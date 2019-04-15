@@ -37,4 +37,4 @@ try:
 		time.sleep(1)
 	
 except KeyboardInterrupt: exit("[exit] key interrupt")
-except Excepttion as F: print("Err: %s"%(F))
+except Exception as F: print("Err: %s"%(F))
